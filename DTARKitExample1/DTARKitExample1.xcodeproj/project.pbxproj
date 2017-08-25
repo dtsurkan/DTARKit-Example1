@@ -13,6 +13,9 @@
 		94DF076A1F506E0F0091F819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DF07681F506E0F0091F819 /* Main.storyboard */; };
 		94DF076C1F506E0F0091F819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DF076B1F506E0F0091F819 /* Assets.xcassets */; };
 		94DF076F1F506E0F0091F819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DF076D1F506E0F0091F819 /* LaunchScreen.storyboard */; };
+		94DF07771F5071D90091F819 /* ARBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF07761F5071D90091F819 /* ARBullet.swift */; };
+		94DF07791F5072460091F819 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF07781F5072460091F819 /* Logo.swift */; };
+		94DF077B1F5072640091F819 /* CollisionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF077A1F5072640091F819 /* CollisionCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		94DF076B1F506E0F0091F819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DF076E1F506E0F0091F819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94DF07701F506E0F0091F819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DF07761F5071D90091F819 /* ARBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBullet.swift; sourceTree = "<group>"; };
+		94DF07781F5072460091F819 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		94DF077A1F5072640091F819 /* CollisionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				94DF07621F506E0F0091F819 /* AppDelegate.swift */,
 				94DF07641F506E0F0091F819 /* art.scnassets */,
 				94DF07661F506E0F0091F819 /* ViewController.swift */,
+				94DF07761F5071D90091F819 /* ARBullet.swift */,
+				94DF07781F5072460091F819 /* Logo.swift */,
+				94DF077A1F5072640091F819 /* CollisionCategory.swift */,
 				94DF07681F506E0F0091F819 /* Main.storyboard */,
 				94DF076B1F506E0F0091F819 /* Assets.xcassets */,
 				94DF076D1F506E0F0091F819 /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DF07771F5071D90091F819 /* ARBullet.swift in Sources */,
+				94DF077B1F5072640091F819 /* CollisionCategory.swift in Sources */,
 				94DF07671F506E0F0091F819 /* ViewController.swift in Sources */,
+				94DF07791F5072460091F819 /* Logo.swift in Sources */,
 				94DF07631F506E0F0091F819 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
